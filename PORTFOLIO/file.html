@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Jefson B. Macarayan, student, designer, and developer.">
+
+    <title>Jefson B. Macarayan | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <a href="#home" class="logo">
+            Jefson <span>Macarayan</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero section" id="home">
+
+            <div class="decoration decoration-left"></div>
+            <div class="decoration decoration-right"></div>
+
+            <div class="hero-content">
+                <p class="eyebrow">HELLO, I AM</p>
+
+                <h1>
+                    Jefson B.<br>
+                    <span>Macarayan</span>
+                </h1>
+
+                <h3>Student · Designer · Developer</h3>
+
+                <p class="hero-description">
+                    I create simple, useful, and accessible
+                    web experiences.
+                </p>
+
+                <a href="#about" class="primary-button">
+                    View My Work <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="portrait-area">
+                <div class="portrait-ring">
+                    <div class="portrait-inner">
+                        <img
+                            src="840498445_1686655196128234_3525790921785242111_n (1).jpg"
+                            alt="Portrait of Jefson Macarayan"
+                            class="portrait"
+                        >
+                    </div>
+                </div>
+
+                <span class="orbit-dot dot-one"></span>
+                <span class="orbit-dot dot-two"></span>
+                <span class="orbit-line"></span>
+            </div>
+
+            <aside class="hero-social">
+                <div class="vertical-heading">
+                    BUILDING<br>
+                    A BETTER<br>
+                    TOMORROW
+                </div>
+
+                <div class="social-links">
+                    <a href="mailto:you@example.com"
+                       aria-label="Send email">
+                        <i class="far fa-envelope"></i>
+                    </a>
+
+                    <a href="https://github.com/USERNAME"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="GitHub profile">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a href="#skills" aria-label="View coding skills">
+                        <i class="fas fa-code"></i>
+                    </a>
+                </div>
+            </aside>
+
+        </section>
+
+        <section class="information section">
+
+            <div class="about-content" id="about">
+                <p class="section-label">ABOUT ME</p>
+
+                <h2>About <span>Me</span></h2>
+
+                <p class="about-description">
+                    I am a student who enjoys learning about technology,
+                    designing websites, and exploring new ideas. I am
+                    currently developing my skills in HTML, CSS, and
+                    JavaScript. My goal is to become a better web developer
+                    by creating simple and useful websites, solving problems,
+                    and learning something new every day.
+                </p>
+            </div>
+
+            <div class="skills-content" id="skills">
+                <p class="section-label">MY SKILLS</p>
+
+                <h2>Skills</h2>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <i class="fab fa-html5 html-icon"></i>
+                        <span>HTML</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fab fa-css3-alt css-icon"></i>
+                        <span>CSS</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fab fa-js js-icon"></i>
+                        <span>JavaScript</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="contact section" id="contact">
+
+            <div class="contact-intro">
+                <p class="section-label">CONTACT</p>
+
+                <h2>Get In Touch</h2>
+
+                <p>
+                    Have a question or want to work on a project
+                    together? Feel free to reach out.
+                </p>
+            </div>
+
+            <a class="contact-item" href="mailto:you@example.com">
+                <div class="contact-icon">
+                    <i class="far fa-envelope"></i>
+                </div>
+
+                <div>
+                    <h4>Email</h4>
+                    <p>macarayan.jefson2008@gmail.com</p>
+                </div>
+            </a>
+
+            <a class="contact-item"
+               href="https://github.com/USERNAME"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                <div class="contact-icon github-contact">
+                    <i class="fab fa-github"></i>
+                </div>
+
+                <div>
+                    <h4>GitHub</h4>
+                    <p>github.com/macarayanjefson2008</p>
+                </div>
+            </a>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>
+            © <span id="year">2026</span> Jefson B. Macarayan.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
